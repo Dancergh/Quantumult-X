@@ -3,7 +3,7 @@
 
 const $ = new Env("实时油价");
 
-var region = 'beijing'
+var region = 'sichuan'
 
 if (typeof $argument !== 'undefined' && $argument !== '') {
     region = $argument
